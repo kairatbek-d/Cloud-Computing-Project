@@ -1,0 +1,102 @@
+.grid {
+  display: grid;
+  grid-gap: 10px;
+  align-items: stretch;
+  width: 600px;
+}
+
+.grid>article {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+
+}
+
+.grid>article img {
+  max-width: 100%;
+}
+
+.text {
+  padding: 0 15px ;
+}
+
+.purchase-button {
+  background: palevioletred;
+  border: 0;
+  color: white;
+  padding: 10px;
+  width: 100%;
+}
+
+.bg-img {
+  width: 100% !important;
+  height: 275px !important;
+  background-size: 100% auto;
+  padding: 5px;
+  border: 1px;
+}
+
+.book-card {
+  margin: 5px;
+  background-color: white;
+  border: grey
+}
+
+
+
+.float-left {
+  width: 46%;
+  float: left;
+}
+
+
+.float-right {
+  width: 52%;
+  float: right;
+}
+
+.meta-text {
+  margin-top: 50px;
+}
+
+.pill-button {
+  background-color: orange;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.purchase-button:hover {
+
+  background-color: #12c2e9;
+
+  color: white;
+
+}
+
+.post {
+  text-align: center;
+}
+
+td {
+  font-size: 0.9em !important;
+  padding: 4px !important;
+  text-align: left;
+  width: fit-content !important;
+}
+
+.separator {
+  width: 10px !important;
+}
+
+table {
+  margin-left: 2px !important;
+}
+.book-title{
+  padding:10px;
+}
